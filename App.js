@@ -87,7 +87,7 @@ message.channel.send ('Condorbot is developed by Eyadplayz')
 });
 
 Bot.on('guildMemberAdd', member => {
-const Welchan = member.guild.channels.find (channel => channel.name === 'join-leave');
+const Welchan = member.guild.channels.find (channel => channel.name === 'general');
   Welchan.send(
     `Welcome to the Condor Airlines Server! `+ member
   )
