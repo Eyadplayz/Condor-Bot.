@@ -45,8 +45,7 @@ if (msg === Prefix + 'SAYHELLO') {
 }
 if (msg === Prefix + 'APPLY') {
     message.channel.send('Sending you the links!')
-  message.author.send(">>> " + 'Captain application: https://docs.google.com/forms/d/1HL6wODtyoJkX7cVCc7cwFqA_sbMU9Z3f4AQSKUwyFN4/edit \n Ground crew application: https://docs.google.com/forms/d/1XZu6V1x6B748uV5YPmX0gtKNpkqZGNq1LlNGkHFncoQ/edit \n Flight attendant application: https://docs.google.com/forms/d/1CravPx0KFHCBPPhvVvf5a5cX-PUN5BRwUY-DH3NyZzg/edit \n Flight host application : https://docs.google.com/forms/d/1bJzUGSYegOT7A2vNlVlKo9tAOPiucpq-g98fPYfSPWU/edit')
-}
+  message.author.send(">>> " + 'https://forms.gle/PjqPj7gFGwVrCp1t5')
 if (msg === Prefix + 'HELP') {
   message.channel.send(">>> "+'Information Commands  \n Apply:to get a job \n Flight:Tells you the info of a flight \n Fun Commands \n Hello,Coin,Oof,Creeper,Ping,Goodbye,Sayhello \n HR:Addflight,Removeflight ')
 }
