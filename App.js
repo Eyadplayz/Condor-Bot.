@@ -46,6 +46,7 @@ if (msg === Prefix + 'SAYHELLO') {
 if (msg === Prefix + 'APPLY') {
     message.channel.send('Sending you the links!')
   message.author.send(">>> " + 'https://forms.gle/PjqPj7gFGwVrCp1t5')
+}
 if (msg === Prefix + 'HELP') {
   message.channel.send(">>> "+'Information Commands  \n Apply:to get a job \n Flight:Tells you the info of a flight \n Fun Commands \n Hello,Coin,Oof,Creeper,Ping,Goodbye,Sayhello \n HR:Addflight,Removeflight ')
 }
