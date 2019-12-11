@@ -83,7 +83,7 @@ Flino = msg2.slice(10,1000)
 message.channel.send ('Condorbot is developed by Eyadplayz')
 } 
 }
-};
+});
 
 Bot.on('guildMemberAdd', member => {
 const Welchan = member.guild.channels.find (channel => channel.name === 'join-leave');
