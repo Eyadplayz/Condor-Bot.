@@ -80,7 +80,7 @@ Flino = msg2.slice(10,1000)
   if (msg === Prefix + 'INFO') {
   message.channel.send("Condor Airlines was founded by Estxril We aim to operate flights throughout the week.")
     
-  message.channel.send(">>> Fleet \n -Airbus A330-300 (In Service) \n -Airbus A320-214 (In Service) \n -Airbus A319-100 (In Service) \n -Bombardier Dash 8 Q400 (ordered)")
+  message.channel.send(">>> Fleet \n A320-232 \n A320neo \n A321neo \n A321NX \n A330neo")
 message.channel.send ('Condorbot is developed by Eyadplayz')
 } 
 }
